@@ -2,12 +2,14 @@
 
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-top: 0px;
 }
     
 
 .status-bar {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .status-bar__column {
@@ -22,6 +24,7 @@ body {
 .status-bar__column:last-child {
     display:flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .status-bar__column:first-child span {
