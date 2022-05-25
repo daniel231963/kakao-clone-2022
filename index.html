@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
     <title>Welcome to Kakaotalk</title>
     <!-- Code Kit from Font Awesome  -->
     <script src="https://kit.fontawesome.com/bee9aa6983.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div id="status-bar">
-      <div class="stauts-bar__column">
+    <div class="status-bar">
+      <div class="status-bar__column">
         <span>No Service</span>
         <!-- Wifi Icon -->
         <i class="fa-solid fa-wifi"></i>
       </div>
-      <div class="stauts-bar__column">
+      <div class="status-bar__column">
         <span>18:43</span>
       </div>
-      <div class="stauts-bar__column">
+      <div class="status-bar__column">
         <span>100%</span>
         <!-- Battery Icon -->
         <i class="fa-solid fa-battery-full"></i>
@@ -30,5 +31,17 @@
       <h1 class="welcome-header__title">Welcome to TokiToki</h1>
       <p class="welcome-header__text"> If you have a TokiToki Account, please log in.</p>
     </header>
+
+    <form id="login-form">
+      <input type="text" placeholder="Email or Phone Number">
+      <input type="password" placeholder="Password">
+      <!-- submit type needs a value, not a placeholder  -->
+      <input type="submit" value="Log In">
+      <input type="submit" value="Sign Up">
+      <!-- can also create a button using <button></button>  -->
+      <a href="#">Find TokiToki Account or Password</a>
+    </form>
+    
+    
   </body>
 </html>
