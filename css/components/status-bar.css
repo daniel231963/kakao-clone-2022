@@ -4,6 +4,11 @@
     align-items: center;
     margin-left: 6px;
     margin-right: 6px;
+    padding-right: 10px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .status-bar__column {
@@ -19,6 +24,7 @@
     display:flex;
     justify-content: flex-end;
     align-items: center;
+    
 }
 
 .status-bar__column:first-child span {

@@ -1,0 +1,47 @@
+.nav {
+  background-color: #f9f9fa;
+  padding: 19px 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0px;
+  /* why does it lose the width when the position is fixed? */
+  width: 100%;
+  /* and we lost the elipsis!! How can I solve this?  */
+  box-sizing: border-box; /* magic line */ 
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  color: rgba(18, 114, 239, 0.85);
+  position: relative;
+}
+
+.nav__notification {
+  position: absolute;
+  left: 27px;
+  top: -18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EF3F2E;
+  color: white;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 90%;
+}
+
+.nav__notification-dot {
+  position: absolute;
+  left: 30px;
+  top: -10px;
+  background-color: #EF3F2E;
+  display: block;
+  width: 4.5px;
+  height: 4.5px;
+  border-radius: 50%;
+}

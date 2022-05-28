@@ -1,78 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600&family=Poppins:wght@300;400;500&display=swap');
+
 @import "reset.css";
-@import "status-bar.css";
 @import "variables.css";
+
+/* Components  */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+
+/* Screens  */
+@import "screens/login.css";
 
 body {
     font-family: 'Poppins', sans-serif;
     margin-top: 0px;
+    height: 1000vh;
 }
 
-.welcome-header {
-    margin-top: 90px;
-    margin-bottom: 80px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.welcome-header__title {
-    margin-bottom: 30px;
-    font-size: 28px;
-    font-weight: 600;
-    color: rgba(0,80,255,255);
-    font-family: 'Plus Jakarta Sans', sans-serif;
-}
-
-.welcome-header__text {
-    width: 60%;
-    opacity: 70%;
-    font-weight: 300;
-}
-
-#login-form {
-    display: flex;
-    flex-direction: column;
-    margin: 0px 30px;
-}
-
-#login-form input {
-    padding: 12px 0px;
-    border: none;
-    font-size: 17px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
-    transition: border-color 0.3s ease-in-out;
-}
-
-#login-form input::placeholder {
-    opacity: 70%;
-    /* placeholder까지 폰트가 inherit되지는 않는가보네?  */
-    font-family: 'Poppins', sans-serif;
-}
-
-#login-form input[type="submit"] {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: none;
-    background-color: var(--tokiblue);
-    color: white;
-    border-radius: 4px;
-    /* Makes the cursor look as a clicking hand when it's on the button  */
-    cursor: pointer;
-}
-
-#login-form input:focus {
-    border-color: var(--tokiblue);
-}
-
-#login-form a {
-    text-align: center;
-    margin-top: 15px;
-    text-decoration: none;
-    font-size: 14px;
-    color: rgba(0, 0, 0, 0.7);
-    font-weight: 300;
-}

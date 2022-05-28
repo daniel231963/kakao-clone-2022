@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/styles.css" rel="stylesheet">
-    <title>Welcome to Kakaotalk</title>
+    <title>TokiToki Login</title>
     <!-- Code Kit from Font Awesome  -->
     <script src="https://kit.fontawesome.com/bee9aa6983.js" crossorigin="anonymous"></script>
   </head>
@@ -33,9 +33,9 @@
       <p class="welcome-header__text"> If you have a TokiToki Account, please log in with your e-mail or phone number.</p>
     </header>
 
-    <form id="login-form">
-      <input type="text" placeholder="E-mail or Phone Number">
-      <input type="password" placeholder="Password">
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="E-mail or Phone Number">
+      <input name="password" type="password" placeholder="Password">
       <!-- submit type needs a value, not a placeholder  -->
       <input type="submit" value="Log In">
       <input type="submit" value="Sign Up">
