@@ -1,0 +1,10 @@
+.user-component__column:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.user-component__picture {
+    width: 70px;
+    height: 70px;
+    border-radius: 38%;
+}

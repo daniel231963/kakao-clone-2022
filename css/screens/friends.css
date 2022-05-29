@@ -1,0 +1,18 @@
+#new-features-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #FAF9F8;
+    color: #2e363e;
+    padding: 14px 0px;
+}
+
+#new-features-link i {
+    margin-left: 6px;
+    margin-right: 6px;
+    color: rgba(18, 114, 239, 0.85);
+}

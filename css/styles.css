@@ -7,13 +7,16 @@
 /* Components  */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
 
 /* Screens  */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
     font-family: 'Poppins', sans-serif;
-    margin-top: 0px;
+    padding-top: 31px;
     height: 1000vh;
 }
 
