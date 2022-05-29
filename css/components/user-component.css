@@ -1,4 +1,7 @@
-.user-component__column:first-child {
+.friends-screen {
+    margin: 0px var(--side-space);
+}
+.user-component, .user-component__column:first-child {
     display: flex;
     align-items: center;
 }
@@ -7,4 +10,21 @@
     width: 70px;
     height: 70px;
     border-radius: 38%;
+    margin-right: 17px;
+}
+
+.user-component__picture--xl {
+    width: 80px;
+    height: 80px;
+}
+
+.user-component__text {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.user-component__subtext {
+    margin-top: 5px;
+    font-size: 14px;
+    color: rgba(0,0,0,0.4);
 }
