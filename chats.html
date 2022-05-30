@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Chats - TokiToki</title>
+    <!-- Code Kit from Font Awesome  -->
+    <script src="https://kit.fontawesome.com/bee9aa6983.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+          <span>LG U+ 5G</span>
+          <!-- Wifi Icon -->
+          <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+          <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+          <span>100%</span>
+          <!-- Battery Icon -->
+          <i class="fa-solid fa-battery-full fa-2x"></i>
+          <!-- Lightning Icon -->
+          <i class="fa-solid fa-bolt"></i>
+        </div>
+      </div>
+
+
+      <header class="screen-header">
+        <h1 class="screen-header__title">Chats</h1>
+        <div class="screen-header__icons">
+          <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+          <span><i class="fa-regular fa-square-plus fa-xl"></i></span>
+          <span><i class="fa-solid fa-music fa-lg"></i></span>
+          <span><i class="fa-solid fa-gear fa-lg"></i></span>
+        </div>
+      </header>
+
+      <main class="main-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+            <img src="screenshots/pepper-potts.jpg" class="user-component__picture">
+            <div class="user-component__text">
+                <h4 class="user-component__name">Pepper Potts</h4>
+                <h6 class="user-component__subtext">Tony, where the hell are you??</h6>
+            </div>
+            </div>
+            <div class="user-component__column user-component__column__chat-right">
+              <span class="user-component__time">22:14</span>
+              <span class="badge user-component__notification">13</span>
+            </div>
+        </div>
+
+        <div class="user-component__dividing-line">
+
+        </div>
+
+        <div class="user-component">
+            <div class="user-component__column">
+            <img src="screenshots/steve-rogers.jpg" class="user-component__picture">
+            <div class="user-component__text">
+                <h4 class="user-component__name">Steve Rogers</h4>
+                <h6 class="user-component__subtext">Stark, this is urgent.</h6>
+            </div>
+            </div>
+            <div class="user-component__column user-component__column__chat-right">
+              <span class="user-component__time">21:22</span>
+              <span class="badge user-component__notification">1</span>
+            </div>
+        </div>
+      </main>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__btn">
+            <a href="friends.html" class="nav__link">
+              <i class="fa-regular fa-user fa-2x"></i></a>
+          </li>
+          <li class="nav__btn">
+            <a href="chats.html" class="nav__link">
+              <span class="nav__notification badge">121</span>
+              <i class="fa-solid fa-comments fa-2x"></i></a>
+          </li>
+          <li class="nav__btn">
+            <a href="find.html" class="nav__link">
+              <i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+          </li>
+          <li class="nav__btn">
+            <a href="more.html" class="nav__link">
+              <span class="nav__notification-dot badge-dot"></span>
+              <i class="fa-solid fa-ellipsis fa-2x"></i></a>
+          </li>
+        </ul>
+      </nav>
+  </body>
+</html>

@@ -24,24 +24,10 @@
   position: absolute;
   left: 27px;
   top: -18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #EF3F2E;
-  color: white;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  font-size: 90%;
 }
 
 .nav__notification-dot {
   position: absolute;
   left: 30px;
   top: -10px;
-  background-color: #EF3F2E;
-  display: block;
-  width: 4.5px;
-  height: 4.5px;
-  border-radius: 50%;
 }

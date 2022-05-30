@@ -1,5 +1,6 @@
 .screen-header {
     margin-top: 20px;
+    margin-bottom: 30px;
     display: flex;
     padding: 0px var(--side-space);
     align-items: center;
@@ -19,6 +20,13 @@
     justify-content: flex-end;
 }
 
-.screen-header__icons span:nth-child(2) {
-    margin: 0px 40px;
+.screen-header__icons span {
+    margin-left: 35px;
+    position: relative;
+}
+
+.screen-header__icons__notification-dot {
+    position: absolute;
+    bottom: 20px;
+    left: 23px;
 }

@@ -9,10 +9,11 @@
     <!-- Code Kit from Font Awesome  -->
     <script src="https://kit.fontawesome.com/bee9aa6983.js" crossorigin="anonymous"></script>
   </head>
+
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>No Service</span>
+        <span>LG U+ 5G</span>
         <!-- Wifi Icon -->
         <i class="fa-solid fa-wifi"></i>
       </div>
@@ -37,13 +38,15 @@
       </div>
     </header>
 
+
     <a id="new-features-link" href="#">
       <i class="fa-solid fa-circle-info"></i>
       TokiToki's Newly Added Features
       <i class="fa-solid fa-chevron-right fa-xs"></i></a>
     
 
-    <main class="friends-screen">
+    <main class="main-screen">
+
       <div class="user-component">
         <div class="user-component__column">
           <img src="screenshots/tony-stark.jpg" class="user-component__picture user-component__picture--xl">
@@ -54,26 +57,46 @@
         </div>
         <div class="user-component__column"></div>
       </div>
+
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span>
+          <i class="fa-solid fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img src="screenshots/nike-run-club.png" class="user-component__picture user-component__picture--sm">
+            <div class="user-component__text">
+              <h4 class="user-component__name user-component__name--not-bold">Nike Run Club</h4>
+              <!-- <h6 class="user-component__subtext">I am Ironman</h6> -->
+            </div>
+          </div>
+          <div class="user-component__column user-component__column--opaque">
+            <span>3</span>
+            <i class="fa-solid fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+      </div>
     </main>
     
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
           <a href="friends.html" class="nav__link">
-            <i class="fa-regular fa-user fa-2x"></i></a>
+            <i class="fa-solid fa-user fa-2x"></i></a>
         </li>
         <li class="nav__btn">
-          <a href="#" class="nav__link">
-            <span class="nav__notification">121</span>
+          <a href="chats.html" class="nav__link">
+            <span class="nav__notification badge">121</span>
             <i class="fa-regular fa-comments fa-2x"></i></a>
         </li>
         <li class="nav__btn">
-          <a href="#" class="nav__link">
+          <a href="find.html" class="nav__link">
             <i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
         </li>
         <li class="nav__btn">
-          <a href="#" class="nav__link">
-            <span class="nav__notification-dot"></span>
+          <a href="more.html" class="nav__link">
+            <span class="nav__notification-dot badge-dot"></span>
             <i class="fa-solid fa-ellipsis fa-2x"></i></a>
         </li>
       </ul>
