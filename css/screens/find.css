@@ -1,0 +1,110 @@
+.find-icons {
+    display: flex;
+    margin-top: 40px;
+    border-bottom: var(--thin-border);
+}
+
+.find-icons__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    font-size: 93%;
+    margin-bottom: 20px;
+}
+
+.find-icons__icon span {
+    text-align: center;
+    margin-top: 28px;
+}
+
+.find-icons__icon:nth-child(2) span {
+    position: relative;
+    bottom: 5px;
+}
+
+.recommended-friends {
+    margin-top: 17px;
+    border-bottom: var(--thin-border);
+}
+
+.recommended-friends__header {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 93%;
+}
+
+.recommended-friends__text {
+    color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+}
+
+.open-chat {
+    margin-top: 17px;
+}
+
+.open-chat__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 17px;
+}
+
+.open-chat__header__column:first-child {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.open-chat__header__column:last-child {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.open-chat__component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.open-chat__component__column:first-child {
+    display: flex;
+    flex-direction: column;
+    line-height: 23px;
+}
+
+.open-chat__component .open-chat__component__column:nth-child(2) img {
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+}
+
+.open-chat__component__column__title {
+    font-size: 120%;
+}
+
+.open-chat__component__column__subtitle {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.open-chat__component__column__status {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.open-chat__component__column__status i {
+    margin: 0px 6px;
+}
+
+.open-chat__component__column__status img {
+    margin-right: 5px;
+}
+.open-chat__component__column__status span:last-child {
+    color: var(--tokiblue);
+}
+
+.open-chat__component__dividing-line {
+    margin-bottom: 12px;
+    height: 1px;
+    background-color: rgba(0,0,0,0.09);
+}
