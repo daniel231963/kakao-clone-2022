@@ -1,27 +1,4 @@
-.find-icons {
-    display: flex;
-    margin-top: 40px;
-    border-bottom: var(--thin-border);
-}
 
-.find-icons__icon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 25%;
-    font-size: 93%;
-    margin-bottom: 20px;
-}
-
-.find-icons__icon span {
-    text-align: center;
-    margin-top: 28px;
-}
-
-.find-icons__icon:nth-child(2) span {
-    position: relative;
-    bottom: 5px;
-}
 
 .recommended-friends {
     margin-top: 17px;
@@ -48,6 +25,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 17px;
+    font-size: 93%;
 }
 
 .open-chat__header__column:first-child {
@@ -71,10 +49,15 @@
     line-height: 23px;
 }
 
+.open-chat__component .open-chat__component__column:nth-child(2) {
+    position: relative;
+}
+
 .open-chat__component .open-chat__component__column:nth-child(2) img {
     width: 100px;
     height: 100px;
     border-radius: 6px;
+    position: relative;
 }
 
 .open-chat__component__column__title {
@@ -99,8 +82,24 @@
 .open-chat__component__column__status img {
     margin-right: 5px;
 }
+
 .open-chat__component__column__status span:last-child {
     color: var(--tokiblue);
+}
+
+.open-chat__component__column__like-block {
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    background-color: rgba(0,0,0, 0.5);
+    color: white;
+    padding: 5px;
+    font-size: 70%;
+    border-radius: 25px;
+}
+
+.open-chat__component__column__like-block i {
+    margin-right: 3px;
 }
 
 .open-chat__component__dividing-line {

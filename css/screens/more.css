@@ -1,0 +1,34 @@
+.more-screen .icon-row .icon-row__icon:nth-child(2) span {
+  position: relative;
+  bottom: 0px;
+}
+
+.more-screen .icon-row .icon-row__icon {
+  margin-bottom: 45px;
+}
+
+.more-suggestions {
+  margin-top: 27px;
+}
+
+.more-suggestions .more-suggestions__header {
+  margin-bottom: 25px;
+}
+
+.more-suggestions__icons {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 90%;
+}
+
+.more-suggestions__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.more-suggestions__icon img {
+  width: 49.17px;
+  margin-bottom: 10px;
+}

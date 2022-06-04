@@ -59,9 +59,14 @@
 .user-component__subtext {
     margin-top: 10px;
     font-size: 14px;
+    font-weight: 500;
     color: rgba(0,0,0,0.4);
 }
 
+.user-component__subtext i {
+    margin-left: 5px;
+    color: #EF3F2E;
+}
 .user-component__dividing-line {
     margin-bottom: 15px;
     height: 1px;
