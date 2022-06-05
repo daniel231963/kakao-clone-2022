@@ -1,0 +1,22 @@
+.alt-header {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.alt-header__column {
+  width: 33%;
+  display: flex;
+}
+
+.alt-header__column:nth-child(2) {
+  justify-content: center;
+  font-size: 170%;
+  font-weight: 500;
+}
+
+.alt-header__column:last-child {
+  justify-content: flex-end;
+}
