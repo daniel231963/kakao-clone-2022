@@ -1,0 +1,28 @@
+.chat-screen {
+  background-color: #abc1d1;
+}
+
+.chat-screen .alt-header {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: red;
+}
+
+
+.chat {
+  padding-top: 90px;
+}
+.chat__time-stamp {
+  display: flex;
+  justify-content: center;
+}
+
+.chat__time-stamp span {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+  font-weight: 300;
+  font-size: 85%;
+}
