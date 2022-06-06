@@ -3,14 +3,14 @@
     justify-content: center;
     align-items: center;
     padding-left: 6px;
-    margin-right: 6px;
-    padding-right: 5px;
+    padding-right: 6px;
     position: fixed;
     top: 0px;
     width: 100%;
     box-sizing: border-box;
     background-color: white;
     height: 28px;
+    z-index: 3;
 }
 
 .status-bar__column {

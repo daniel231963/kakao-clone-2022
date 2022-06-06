@@ -3,6 +3,9 @@
 
 }
 
+.setting-top-padding {
+  padding-top: 30px;
+}
 .settings-list-dividing-line {
   height: 1px;
   background-color: rgba(0, 0, 0, 0.08);
