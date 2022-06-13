@@ -30,3 +30,24 @@
     bottom: 20px;
     left: 23px;
 }
+
+@keyframes rotateGear {
+    from {transform: none;}
+    to {transform: rotateZ(360deg);}
+}
+
+.screen-header__icons .fa-gear:hover {
+    animation: rotateGear 2s linear infinite;
+}
+
+@keyframes Brrr {
+    30% {transform: none;}
+    40%, 60% { transform: rotate(-20deg); }
+    50% { transform: rotate(20deg); }
+    70% { transform: rotate(0deg); }
+    100% { transform: scale(1); }
+  }
+
+  .screen-header__icons .fa-music:hover {
+    animation: Brrr 1s ease infinite;
+  }

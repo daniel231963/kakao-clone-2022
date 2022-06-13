@@ -30,3 +30,28 @@
     justify-content: space-between;
     align-items: center;
 }
+@keyframes hideSplashScreen {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+#splash-screen {
+    background-color: var(--tokiblue);
+    width: 96.5vw;
+    height: 100vh;
+    color: white;
+    position: absolute;
+    top: 0px;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    animation: hideSplashScreen 1s ease-out forwards; /* forwards는 keyframe의 마지막 속성 값을 기억하게 한다 */
+    animation-delay: 0.8s;
+}

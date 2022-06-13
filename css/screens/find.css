@@ -98,8 +98,31 @@
     border-radius: 25px;
 }
 
+@keyframes animateHeart {
+    0% {
+      transform: scale(0.9);
+    }
+    5% {
+      transform: scale(1.1);
+    }
+    10% {
+      transform: scale(1);
+    }
+    15% {
+      transform: scale(1.2);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
 .open-chat__component__column__like-block i {
     margin-right: 3px;
+    will-change: transform; /* makes the browser to make the animation smoother */
+    animation: animateHeart 1.2s infinite;
 }
 
 .open-chat__component__dividing-line {

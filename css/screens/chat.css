@@ -33,9 +33,20 @@
   font-size: 85%;
 }
 
+@keyframes fadeInLeft {
+  from {transform: translateX(-10px); opacity: 0;}
+  to {transform: none; opacity: 1;}
+}
+
+@keyframes fadeInRight {
+  from {transform: translateX(10px); opacity: 0;}
+  to {transform: none; opacity: 1;}
+}
+
 .chat__message-row {
   display: flex;
-  margin-bottom: 55px;
+  margin-bottom: 50px;
+  animation: fadeInLeft 0.7s ease-out;
 }
 
 .chat__message-row img {
@@ -75,6 +86,7 @@
 .chat__message-row__own {
   justify-content: flex-end;
   margin-bottom: 35px;
+  animation: fadeInRight 0.7s ease-out;
 }
 
 .chat__message-row__own .message-info {
@@ -84,4 +96,91 @@
   border-radius: 13px;
   border-top-right-radius: 0px;
   background-color: #5081f2;
+}
+
+.write-message {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 5px 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.write-message .write-message__column:first-child,
+.write-message .fa-face-laugh-wink,
+.write-message button {
+  transition: opacity 0.5s ease-out;
+}
+
+.write-message:focus-within .write-message__column:first-child,
+.write-message:focus-within .fa-face-laugh-wink,
+.write-message:focus-within button {
+  opacity: 0;
+}
+
+
+.write-message:focus-within {
+  transform: translateY(80px);
+}
+
+.write-message:focus-within input {
+  width: 93vw;
+  transform: translateX(-10%) translateY(-80px);
+}
+
+.write-message__column:first-child i {
+  margin-right: 10px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.write-message__column:first-child {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.write-message__column:last-child {
+  width: 90%;
+}
+
+.write-message__column:last-child > i,
+.write-message__column:last-child button {
+  position: absolute;
+  right: 13px;
+  bottom: 14px;
+  
+}
+
+.write-message__column:last-child > i {
+  right: 50px;
+  top: 27px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.write-message__column:last-child button {
+  background-color: var(--tokiblue);
+  border: none;
+  color: white;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.write-message__column input {
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  height: 35px;
+  width: 100%;
+  position: relative;
+  padding-left: 13px;
+  box-sizing: border-box;
+  font-size: 95%;
+  will-change: transform;
+  transition: all 0.5s ease-in-out;
+  
 }

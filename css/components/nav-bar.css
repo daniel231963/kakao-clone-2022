@@ -24,10 +24,18 @@
   position: absolute;
   left: 27px;
   top: -18px;
+  animation: notificationAnimation 2s ease;
 }
 
 .nav__notification-dot {
   position: absolute;
   left: 30px;
   top: -10px;
+  animation: notificationAnimation 2s ease;
+}
+
+@keyframes notificationAnimation {
+	0%, 40%, 60%, 80%, 100% {transform: translateY(0);}
+	20% {transform: translateY(-15px);}
+	50% {transform: translateY(-8px);}
 }
